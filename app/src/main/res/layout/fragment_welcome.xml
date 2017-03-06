@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/LL_login_welcome_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="8dp"
+            android:weightSum="3">
+
+
+            <RelativeLayout
+                android:id="@+id/RV_login_welcome_fragment"
+                android:layout_width="256dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/blueGrey100"
+                android:elevation="4dp"
+                android:transitionName="@string/trans_layout_login">
+
+                <TextView
+                    android:id="@+id/TV_title_login_welcome_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/text_login_with"
+                    android:textColor="@color/black54"
+                    android:textSize="@dimen/textSize_body"
+                    android:transitionName="@string/trans_text_title_login" />
+
+                <TextView
+                    android:id="@+id/TV_subheader_login_welcome_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TV_title_login_welcome_fragment"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/label_email"
+                    android:textColor="@color/black87"
+                    android:textSize="@dimen/textSize_display1"
+                    android:transitionName="@string/trans_text_subheader_login" />
+
+                <FrameLayout
+                    android:id="@+id/FL_login_welcome_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?selectableItemBackground" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL_register_welcome_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LL_login_welcome_fragment"
+            android:layout_marginTop="16dp"
+            android:weightSum="3">
+
+            <RelativeLayout
+                android:id="@+id/RL_register_welcome_fragment"
+                android:layout_width="256dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorPrimary"
+                android:elevation="4dp"
+                android:transitionName="@string/trans_layout_register">
+
+
+                <TextView
+                    android:id="@+id/TV_title_register_welcome_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/text_register"
+                    android:textColor="@color/white54"
+                    android:textSize="@dimen/textSize_body"
+                    android:transitionName="@string/trans_text_title_register" />
+
+                <TextView
+                    android:id="@+id/TV_subheader_register_welcome_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TV_title_register_welcome_fragment"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/text_new_account"
+                    android:textColor="@color/white87"
+                    android:textSize="@dimen/textSize_display1"
+                    android:transitionName="@string/trans_text_subheader_register" />
+
+                <FrameLayout
+                    android:id="@+id/FL_register_welcome_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?selectableItemBackground" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

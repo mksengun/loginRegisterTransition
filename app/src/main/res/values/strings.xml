@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ButtonExpandAnimation</string>
+    <string name="button_login">LOGIN</string>
+    <string name="button_create">CREATE</string>
+
+    <string name="text_login_with">Login with</string>
+    <string name="text_register">Register</string>
+    <string name="text_new_account">New Account</string>
+
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Transitions -->
+    <string name="trans_layout_login">TRANS_LAYOUT_LOGIN</string>
+    <string name="trans_text_title_login">TRANS_TEXT_TITLE_LOGIN</string>
+    <string name="trans_text_subheader_login">TRANS_TEXT_SUBHEADER_LOGIN</string>
+
+    <string name="trans_layout_register">TRANS_LAYOUT_REGISTER</string>
+    <string name="trans_text_title_register">TRANS_TEXT_TITLE_REGISTER</string>
+    <string name="trans_text_subheader_register">TRANS_TEXT_SUBHEADER_REGISTER</string>
+
+
+</resources>
