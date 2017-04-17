@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/RV_login_fragment"
         android:indeterminate="true"
+
+        android:transitionName="@string/trans_text_login"
         android:visibility="invisible" />
 
     <RelativeLayout
